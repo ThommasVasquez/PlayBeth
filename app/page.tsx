@@ -1,6 +1,7 @@
 "use client";
 
 import Header from "@/components/Header/Header";
+export const runtime = 'edge';
 import Hero from "@/components/Hero/Hero";
 import ProductCard from "@/components/Product/ProductCard";
 import { PRODUCTS } from "@/lib/data";

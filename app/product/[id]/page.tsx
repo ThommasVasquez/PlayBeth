@@ -1,4 +1,5 @@
 'use client';
+export const runtime = 'edge';
 
 import Header from '@/components/Header/Header';
 import { PRODUCTS } from '@/lib/data';
