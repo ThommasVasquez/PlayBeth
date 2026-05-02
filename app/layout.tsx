@@ -15,6 +15,9 @@ const ambra = localFont({
 export const metadata: Metadata = {
   title: "PlayBeth® | Premium Baby Boutique",
   description: "Boutique baby clothing and accessories with a premium, shopping experience.",
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
