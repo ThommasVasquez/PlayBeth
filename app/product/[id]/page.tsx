@@ -9,6 +9,12 @@ import { gsap } from 'gsap';
 import { ArrowLeft, Star, Share2, Heart } from 'lucide-react';
 import Link from 'next/link';
 
+export function generateStaticParams() {
+  return PRODUCTS.map((product) => ({
+    id: product.id,
+  }));
+}
+
 export default function ProductPage() {
   const { id } = useParams();
   const router = useRouter();
